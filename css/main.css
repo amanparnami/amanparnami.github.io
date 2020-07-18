@@ -1,0 +1,365 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+	 body {
+     padding-bottom: 20px;
+		/* background: url(../img/me_banner.jpg) no-repeat center bottom;
+				 background-size:cover;
+				 background-attachment: fixed;*/
+		background-color: #f9f6f0;
+	 }
+	 
+	 .navbar {
+		 background-color: rgba(255, 255, 255, 0.3);
+		 border-bottom: 1px solid rgba(210, 210, 210, 0.3);
+		 
+	 }
+	 
+	 .navbar-header > button.navbar-toggle > span.icon-bar {
+		 background-color: #333333; 
+	 }
+	 
+	 .nav > li.active > a {
+	 		color: #EB7F2E;
+	 }
+	 
+	 .jumbotron {
+		 background: none;
+	 }
+
+	 .img-caption {
+		 color: #777;
+		 font-size: 9px;
+		 
+	 }
+	 
+	 /* For a centered page-header*/
+	 .page-header {
+		 text-align: center;
+	 }
+	 
+	 .page-header ul.social-links {
+		 
+	 }
+	 
+	 .projects-list .row {
+		 padding-top: 15px;
+		 padding-bottom: 15px; 
+	 }
+	 
+	 .projects-list .row:hover {
+		 
+	 }
+	 
+	 .projects-list .row .img-thumbnail {
+		 border: none;
+		 padding: 0;
+	 }
+	 
+	 .row .resume-links {
+		 padding-top: 15px;
+		 padding-bottom: 15px;
+	 }
+	 
+	.navbar-brand {
+		font-size: 24px;
+	}
+
+
+		 
+	.text-italic {
+		font-style: italic;
+	}	 
+		 
+	a, a:focus {
+		color: black;
+		border-bottom: 1px dotted #EB7F2E;
+		outline: none;
+	}	 
+	
+	a:hover{
+		border: none;
+		color: #EB7F2E;
+	}
+	
+	a:hover, a:focus {
+		text-decoration: none;
+	}
+	
+	.navbar a {
+		border: none;
+	}
+	
+	a.carousel-control {
+		border: none;
+	}
+	
+	a.back-to-research {
+		position: fixed;
+		top: 30%;
+		left: 10px;
+	}
+	
+	span.helper-text {
+		font-weight: lighter;
+		color: #6f6f6f;
+		font-size: 80%;
+	}
+	
+	/* Customize the Project Page Banner
+  --------------------------------------------------- */
+	
+	.project-page {
+		margin: 0 auto;
+	}
+	
+	.project-page-banner {
+		position: relative;
+		border-radius: 0;
+	}
+	
+	.project-page-banner, .project-description {
+		
+	}
+	
+	.project-page-banner > .container {
+		position: relative;
+		max-width: 100%;
+	}
+	
+	.project-page-banner > .container > .img-project-banner {
+   position: absolute;
+   top: 0;
+   left: 0;
+	 min-width: 100%;
+	}
+	
+	.project-page-banner > .container > .project-banner-caption {
+		position: absolute;
+		left: 10%;
+		right: 10%;
+		top: 0;
+		text-align: center;
+		padding-bottom: 30px;
+		padding-top: 20px;
+		color: #fff;
+		background-color: rgba(20,30,23,0.5);
+	}
+	
+	.project-banner-caption > h1 {
+		font-size: 48px;
+	}
+	
+  /* Projects list
+  -------------------------------------------------- */
+	div.projects-list-item {
+		position: relative;
+	}
+	
+	.projects-list-item  a.project-title-link {
+		
+	}
+	
+	.projects-list-item  a.project-visual-link img {
+		margin-bottom: 10px;
+	}
+	
+	.projects-list-item  p.project-description {
+	}
+	
+	.projects-list-item .project-meta-info {
+		font-weight: bold;
+		font-size: small;
+	}
+	.projects-list-item .project-meta-info span:not(:first-child) {
+		padding-left: 20px;
+	}
+	
+ /* Responsive Slides
+ -------------------------------------------------- */
+	
+	.rslides {
+	  position: relative;
+	  list-style: none;
+	  overflow: hidden;
+	  width: 100%;
+	  padding: 0;
+	  margin: 0;
+	  }
+
+	.rslides li {
+	  -webkit-backface-visibility: hidden;
+	  position: absolute;
+	  display: none;
+	  width: 100%;
+	  left: 0;
+	  top: 0;
+	  }
+
+	.rslides li:first-child {
+	  position: relative;
+	  display: block;
+	  float: left;
+	  }
+
+	.rslides img {
+	  display: block;
+	  height: auto;
+	  float: left;
+	  width: 100%;
+	  border: 0;
+		background-color: #ffffff;
+	  }
+	  
+	  .rslides li p.caption, .rslides li p.subcaption {
+	  	position: absolute;
+	  	z-index: 10;
+	  	background-color: rgba(126,126,126,0.6);
+	  	color: #ffffff;
+	  }
+	  
+	  .rslides li p.caption {
+		  bottom: 30px;
+		  padding: 4px 8px 0px 8px;
+		  text-transform:uppercase;
+		  font-size: 24pt; /*TODO: with this size it overflows when seen on mobile device*/
+	  }
+	  
+	  .rslides li p.subcaption {
+		  bottom: 4px;
+		  font-size: 16px;
+		  padding: 0px 8px 4px 8px;
+		  text-transform: none;
+	  }
+	
+	 /* CUSTOMIZE THE CAROUSEL
+	 -------------------------------------------------- */
+
+	 /* Carousel base class */
+	 .carousel {
+	   margin-bottom: 30px;
+
+	   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+	   /*margin-top: -90px;*/
+	 }
+	 /* Since positioning the image, we need to help out the caption */
+	 .carousel-caption {
+	   z-index: 10;
+	 }
+
+	 /* Declare heights because of positioning of img element */
+	 .carousel .item {
+	   height: 500px;
+	   background-color: #777;
+	 }
+	 .carousel-inner > .item > img {
+	   position: absolute;
+	   top: 0;
+	   left: 0;
+	   min-width: 100%;
+	   height: 500px;
+	 }
+
+	 /* MARKETING CONTENT
+	 -------------------------------------------------- */
+
+	 /* Pad the edges of the mobile views a bit */
+	 .marketing {
+	   padding-left: 15px;
+	   padding-right: 15px;
+	 }
+
+	 /* Center align the text within the three columns below the carousel */
+	 .marketing .col-sm-4 {
+	   text-align: center;
+	   margin-bottom: 20px;
+	 }
+	 .marketing h2 {
+	   font-weight: normal;
+	 }
+	 .marketing .col-sm-4 p {
+	   margin-left: 10px;
+	   margin-right: 10px;
+	 }
+
+
+	 /* Featurettes
+	 ------------------------- */
+
+	 .featurette-divider {
+	   margin: 80px 0; /* Space out the Bootstrap <hr> more */
+	 }
+
+	 /* Thin out the marketing headings */
+	 .featurette-heading {
+	   font-weight: 300;
+	   line-height: 1;
+	   letter-spacing: -1px;
+	 }
+
+
+
+	 /* RESPONSIVE CSS
+	 -------------------------------------------------- */
+
+	 @media (min-width: 768px) {
+
+	   /* Remove the edge padding needed for mobile */
+	   .marketing {
+	     padding-left: 0;
+	     padding-right: 0;
+	   }
+
+	   .featurette-heading {
+	     font-size: 50px;
+	   }
+		 
+	
+	 	.project-page {
+	 		margin: 0 auto;
+	 		width: 960px;
+	 	}
+		
+		.research-page-body, .biography-page-body {
+	 		margin: 0 auto;
+	 		width: 960px;
+		}
+		
+		
+
+	 }
+
+	 @media (max-width: 768px) {
+
+	a.back-to-research {
+		position: relative;
+		/*font-size: 24px;*/
+	}
+	
+  .rslides li p.caption {
+	  bottom: 0px;
+	  font-size: 12pt; /*TODO: with this size it overflows when seen on mobile device*/
+	  padding: 4px 8px;
+  }
+  .rslides li p.subcaption {
+	  display: none;;
+	  
+  }
+}
+
+	 @media (min-width: 992px) {
+	   .featurette-heading {
+	     margin-top: 120px;
+	   }
+	 }
+
+
+
+
+
+
+
+
